@@ -1,0 +1,34 @@
+name: SimpleBroadcast
+main: broad\Main
+version: 1.0.0
+api: 5.0.0
+commands:
+  broadcast:
+    description: "Broadcast a message"
+    usage: "/broadcast <message>"
+    permission: "broadcastplugin.broadcast"
+  forcebroadcast:
+    description: "Force broadcast messages"
+    usage: "/forcebroadcast"
+    permission: "broadcastplugin.forcebroadcast"
+  setbroadcastmessage:
+    description: "Add a new automatic broadcast message"
+    usage: "/setbroadcastmessage <message>"
+    permission: "broadcastplugin.setbroadcastmessage"
+  setbroadcasttime:
+    description: "Set the interval between automatic broadcasts"
+    usage: "/setbroadcasttime <seconds>"
+    permission: "broadcastplugin.setbroadcasttime"
+permissions:
+  broadcastplugin.broadcast:
+    description: "Allows the player to broadcast a message"
+    default: op
+  broadcastplugin.forcebroadcast:
+    description: "Allows the player to force broadcast messages"
+    default: op
+  broadcastplugin.setbroadcastmessage:
+    description: "Allows the player to add a new automatic broadcast message"
+    default: op
+  broadcastplugin.setbroadcasttime:
+    description: "Allows the player to set the interval between automatic broadcasts"
+    default: op
