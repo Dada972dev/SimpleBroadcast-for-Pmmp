@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Dada972dev/SimpleBroadcast-for-Pmmp
+build-by-default: true
+branches:
+- main
+projects:
+  SimpleBroadcast-for-Pmmp:
+    path: ""
+...
