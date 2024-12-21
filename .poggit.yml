@@ -5,4 +5,5 @@ branches:
 projects:
   SimpleBroadcast-for-Pmmp:
     path: ""
+    icon: logo.png
 ...
